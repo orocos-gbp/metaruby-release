@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>metaruby</name>
+  <version>:{version}</version>
+  <description>Modelling using the Ruby language as a metamodel</description>
+
+  <maintainer email="orocos-dev@lists.mech.kuleuven.be">Orocos Development Team</maintainer>
+  <author email="sylvain.joyeux@dfki.de">Sylvain Joyeux/sylvain.joyeux@dfki.de</author>
+  <license>LGPLv3</license>
+
+  <run_depend>catkin</run_depend>
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <run_depend>utilrb</run_depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
