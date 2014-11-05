@@ -1,0 +1,28 @@
+From e003f68841255214e16a8b937fa6cb792502e08d Mon Sep 17 00:00:00 2001
+From: Johannes Meyer <johannes@intermodalics.eu>
+Date: Wed, 5 Nov 2014 21:35:20 +0000
+Subject: [PATCH] Removed manifest.xml for releasing with bloom
+
+---
+ manifest.xml | 9 ---------
+ 1 file changed, 9 deletions(-)
+ delete mode 100644 manifest.xml
+
+diff --git a/manifest.xml b/manifest.xml
+deleted file mode 100644
+index 7f96018..0000000
+--- a/manifest.xml
++++ /dev/null
+@@ -1,9 +0,0 @@
+-<package>
+-  <description brief="Modelling using the Ruby language as a metamodel">
+-  </description>
+-  <author>Sylvain Joyeux/sylvain.joyeux@dfki.de</author>
+-  <license>LGPLv3</license>
+-
+-  <depend package="utilrb" />
+-  <depend package="kramdown" optional="1" />
+-</package>
+-- 
+1.9.1
+
