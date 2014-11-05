@@ -1,0 +1,9 @@
+<package>
+  <description brief="Modelling using the Ruby language as a metamodel">
+  </description>
+  <author>Sylvain Joyeux/sylvain.joyeux@dfki.de</author>
+  <license>LGPLv3</license>
+
+  <depend package="utilrb" />
+  <depend package="kramdown" optional="1" />
+</package>
