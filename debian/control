@@ -1,0 +1,12 @@
+Source: ros-indigo-metaruby
+Section: misc
+Priority: extra
+Maintainer: Orocos Development Team <orocos-dev@lists.mech.kuleuven.be>
+Build-Depends: debhelper (>= 9.0.0), cmake
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-metaruby
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-catkin, ros-indigo-utilrb
+Description: Modelling using the Ruby language as a metamodel
