@@ -1,4 +1,4 @@
-From e003f68841255214e16a8b937fa6cb792502e08d Mon Sep 17 00:00:00 2001
+From 6f4cbaf92d8bdfd7daf2856648e0193ef39e4ed3 Mon Sep 17 00:00:00 2001
 From: Johannes Meyer <johannes@intermodalics.eu>
 Date: Wed, 5 Nov 2014 21:35:20 +0000
 Subject: [PATCH] Removed manifest.xml for releasing with bloom
